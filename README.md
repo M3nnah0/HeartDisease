@@ -62,6 +62,7 @@ After training the neural network on the heart disease dataset, we tested it on 
 
 **Model Predictions:**  
 `[.1 .0 .1 .1 .0]`
+
 **True Labels:**  
 `[1 0 1 0 0]`
 
