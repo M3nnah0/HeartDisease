@@ -22,26 +22,29 @@ The dataset contains 14 key attributes related to patient health, including:
 - Thalassemia  
 - Target (presence or absence of heart disease)
 
-The dataset is publicly available at the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/heart+Disease).
 
 ## Project Structure
 
-1. **Importing the Dataset**  
+1. **Importing the Dataset**
+   We are using a cleaned version of the Heart Disease dataset, hosted on GitHub.
+The dataset was originally from the UCI Machine Learning Repository.
+
+Dataset URL: https://raw.githubusercontent.com/sharmaroshan/Heart-UCI-Dataset/master/heart.csv
    Load and explore the dataset using `pandas`.
 
-2. **Preprocessing the Data**  
+3. **Preprocessing the Data**  
    Handle missing values, normalize data, and encode categorical variables.
 
-3. **Splitting the Data**  
+4. **Splitting the Data**  
    Split the dataset into training and testing sets (80/20 split).
 
-4. **Building the Neural Network**  
+5. **Building the Neural Network**  
    Create a simple sequential model using Keras with input, hidden, and output layers.
 
-5. **Training the Model**  
+6. **Training the Model**  
    Train the model using binary crossentropy loss and accuracy as the evaluation metric.
 
-6. **Evaluating the Model**  
+7. **Evaluating the Model**  
    Compare predicted vs. actual values and evaluate model performance using metrics.
 
 ## Libraries Used
