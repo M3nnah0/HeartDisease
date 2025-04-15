@@ -61,10 +61,9 @@ Dataset URL: https://raw.githubusercontent.com/sharmaroshan/Heart-UCI-Dataset/ma
 After training the neural network on the heart disease dataset, we tested it on a sample of data.
 
 **Model Predictions:**  
-`[0. 1. 1. 0. 1.]`
-
+`[.1 .0 .1 .1 .0]`
 **True Labels:**  
-`[0 0 1 0 1]`
+`[1 0 1 0 0]`
 
 As we can see, the model correctly predicted 4 out of 5 cases in this batch. This shows that the model is performing well on binary classification for heart disease prediction.
 
